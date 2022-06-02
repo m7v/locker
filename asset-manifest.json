@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/locker/static/css/main.eb056ee7.css",
+    "main.js": "/locker/static/js/main.861ebb67.js",
+    "static/js/787.c1112931.chunk.js": "/locker/static/js/787.c1112931.chunk.js",
+    "index.html": "/locker/index.html",
+    "main.eb056ee7.css.map": "/locker/static/css/main.eb056ee7.css.map",
+    "main.861ebb67.js.map": "/locker/static/js/main.861ebb67.js.map",
+    "787.c1112931.chunk.js.map": "/locker/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb056ee7.css",
+    "static/js/main.861ebb67.js"
+  ]
+}
