@@ -38,7 +38,7 @@ function App() {
     <div className="container">
         <div className="locker" style={{ width: matrix[0].length * 68 }}>
             <div className="signal">
-                {matrix.map((arr, index) => (
+                {matrix.map((_, index) => (
                     <div className="signal-wrap">
                         {arrayColumn(matrix, index) ? <div className="green" /> : <div className="red" />}
                     </div>
