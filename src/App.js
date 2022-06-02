@@ -7,6 +7,8 @@ function rand() { // min and max included
     return Math.floor(Math.random() * (2) + 0)
 }
 
+const arrayColumn = (arr, n) => arr.every(x => x[n] === 1);
+
 function App() {
   const [matrix, setMatrix] = useState([
       [rand(), rand(), rand(), rand()],
@@ -38,7 +40,7 @@ function App() {
             <div className="signal">
                 {matrix.map((arr, index) => (
                     <div className="signal-wrap">
-                        {arr.every((i) => i === 1) ? <div className="green" /> : <div className="red" />}
+                        {arrayColumn(matrix, index) ? <div className="green" /> : <div className="red" />}
                     </div>
                 ))}
             </div>
