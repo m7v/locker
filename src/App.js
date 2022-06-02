@@ -4,7 +4,7 @@ import On from "./on";
 import Off from "./off";
 
 function rand() { // min and max included
-    return Math.floor(Math.random() * (2) + 0)
+    return Math.floor(Math.random() * 2)
 }
 
 const arrayColumn = (arr, n) => arr.every(x => x[n] === 1);
